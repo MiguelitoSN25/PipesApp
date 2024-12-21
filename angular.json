@@ -90,16 +90,24 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "src/favicon.ico",
+              "src/assets/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/primeng/resources/themes/lara-dark-indigo/theme.css",  
+              "node_modules/primeng/resources/primeng.min.css",                    
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeflex/primeflex.css"       
+       
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9251a509-0157-4b9b-86bd-4663b1f16c8f"
   }
 }
